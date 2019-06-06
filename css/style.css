@@ -1,0 +1,149 @@
+/* basic styles */
+
+html
+{
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* body style */
+body {
+  background-color: #88d1e9; /* happy blue */
+  color: white;
+  text-align: center;
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+}
+
+/* section styles */
+
+/* ****** NAV **************  */
+
+nav {
+  background: #b8c4d2; /* light purple */
+  overflow: hidden;
+  margin-top: 2%;
+  font-size: 1.4rem;
+}
+
+ul.page_nav{
+  color: white;
+  list-style: none;
+  text-align: right;
+  font-family:'Raleway', sans-serif;
+}
+
+ul.page_nav li {
+  witdh: 120px;
+  float: right;
+  margin-right: 10%;
+}
+
+ul.page_nav li a {
+  display: block-inline;
+  text-decoration: none;
+  padding: 5%
+  color: white;
+}
+
+li a:hover {
+  background: #9a98a5;
+}
+ nav img {
+   display: left;
+ }
+
+/* top contact */
+
+.top_contact {
+  text-align: left;
+  display: inline;
+}
+
+top_contact ul {
+  display: inline;
+}
+
+li {
+  text-decoration: none
+}
+
+a {
+  text-decoration: none;
+  padding: 5%
+  color: white;
+}
+
+.top_contact li a:hover {
+  background: #9a98a5;
+}
+
+/* headings style */
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 5.0rem;
+  text-align: left;
+  padding-left: 10%;
+  color: #766cbc; /* dark purple */
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.5rem;
+  color: white;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+}
+
+
+/* title section */
+ .title p {
+   background-color: none;
+   font-family: 'Montserrat', sans-serif;
+
+   text-align: left;
+   padding-left: 10%;
+   font-size: 1.5rem;
+   color: #766cbc;
+ }
+
+/* services section */
+
+section.services {
+background: #9a98a5;
+}
+
+.services p {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* about section */
+
+.about {
+  background: #d8d2cb;
+}
+
+/* review section */
+
+.reviews {
+  background: #7a8e86;
+}
+
+/* footer section */
+
+footer {
+  background: #694140;
+}
+
+
+
+/*  ************ responsive styles *******/
